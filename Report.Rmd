@@ -1,0 +1,46 @@
+---
+title: "Report Title"
+author: "Author Name"
+date: '`r format(Sys.Date(), "%d/%m/%Y")`'
+document_class: "scrreport"
+bibliography: "bibliography.bibtex"
+# If you wish to include a library style, add it and uncomment this
+# csl: "ieee.csl"
+output:
+  pdf_document:
+    includes:
+      in_header: setup.sty
+    toc: true # wether to generate a table of contents
+    number_sections: true # wether to prepend a number to section titles
+    keep_tex: false # set to true to keep intermediate tex file
+    latex_engine: "xelatex"
+    pandoc_args: [
+      "-V",
+      "lang=en", # change language at will
+      "--listings"
+      ]
+---
+
+```{r setup, include=FALSE}
+# clear everything
+rm(list = ls())
+
+options(digits=3)
+options("citation_format" = "pandoc")
+```
+
+\newpage
+# Section 1
+This is a sample section with a code listing.
+
+```r
+s <- c("This","is","a","sample","listing")
+```
+
+\newpage
+# Section 2
+This is another section, with a citation [@SampleArticle].
+
+
+\newpage
+# Bibliography

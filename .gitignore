@@ -1,0 +1,4 @@
+# R history
+.Rhistory
+# PDF files, such as the result report, or generated figures.
+*.pdf
