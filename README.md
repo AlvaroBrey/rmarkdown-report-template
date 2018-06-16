@@ -5,9 +5,12 @@ It's aimed at those of us that want to write a report without much fuss but stil
 
 ## How to
 
-1. Clone this repo.
-2. Install this package with `devtools::install()`.
-3. In RStudio, use `New File` > `RMarkdown` > `From Template`
+1. Install this package:
+```r
+devtools:install_github("ontherunvaro/rmarkdown-report-template")
+```
+2. Close and reopen RStudio if currently running.
+3. In RStudio, use `New File` > `RMarkdown` > `From Template`.
 4. Edit the files however you like and compile the report with RStudio.
 
 ## FAQ
