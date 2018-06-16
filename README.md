@@ -1,19 +1,14 @@
-# An RMarkdown report boilerplate
+# An RMarkdown report template
 
 This project is meant to serve as a "quick start" for short [RMarkdown](https://rmarkdown.rstudio.com/) PDF reports, such as those done for coursework.
 It's aimed at those of us that want to write a report without much fuss but still be able to have advanced features like citations and code listings.
 
-## Contents
-
-* `Report.Rmd`: The main report file.
-* `bibliography.bibtex`: What the name says, a BibTex file to add your references.
-* `setup.sty`: A setup file with additional LaTeX setup. It's included in the generated TeX file's header automatically.
-
 ## How to
 
 1. Clone this repo.
-2. Edit the files.
-3. Compile your report using RStudio.
+2. Install this package with `devtools::install()`.
+3. In RStudio, use `New File` > `RMarkdown` > `From Template`
+4. Edit the files however you like and compile the report with RStudio.
 
 ## FAQ
 
