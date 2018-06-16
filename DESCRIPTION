@@ -1,0 +1,9 @@
+Package: reportTemplate
+Title: Simple RMarkdown report template
+Version: 0.1
+Authors@R: person("Álvaro", "Brey", email = "alvaro.brv@gmail.com", role = c("aut", "cre"))
+Description: This is a template for a simple RMarkdown template with bibliography and listings.
+Depends: R (>= 3.4.4)
+License: MIT
+Encoding: UTF-8
+LazyData: true
